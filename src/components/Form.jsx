@@ -1,7 +1,13 @@
+
 function Form() {
-    return (
-      <h1>Hola form</h1>
-    );
+  return (
+    <form>
+    <div className="form-group">
+      <input className="form-control" name="Nombre" placeholder="Nombre"/>
+      <input className="form-control" name="Apellido" placeholder="Apellido"/>    
+    </div>
+    </form>
+    )
   }
   
   export default Form;

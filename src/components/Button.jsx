@@ -1,6 +1,8 @@
 function Button() {
     return (
-      <h1>Hola button</h1>
+    <form>
+      <button className="btn btn-dark mt-3" type="submit">Enviar</button>
+    </form>
     );
   }
   
