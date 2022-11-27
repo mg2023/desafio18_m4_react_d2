@@ -1,16 +1,6 @@
 body {
   margin: 70px;
+  width: 50%;
+
 }
 
-input {
-  max-width: 30%;
-}
-
-.error {
-  padding: 10px;
-  max-width: 30%;
-  color: white;
-  background-color: red;
-  text-align: center;
-  font-weight: bold;
-}
