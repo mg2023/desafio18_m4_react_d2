@@ -6,14 +6,24 @@ function Input(props) {
     * 
     */
     <div className="form-group mt-3">
+
       <label>Nombre</label>
-      <input type="text" className="form-control mb-3" name={props.nombre}
+      <input type="text" 
+        className="form-control mb-3" 
+        name="ingresar-nombre"
         placeholder="Ingrese su nombre"
-        onChange={(e) => props.setNombre(e.target.value)} value={props.nombre} />
+        onChange={(e) => props.setNombre(e.target.value)} 
+        value={props.nombre} 
+      />
+
       <label>Password</label>
-      <input type="password" className="form-control mb-3" name={props.password}
+      <input type="password" 
+        className="form-control mb-3" 
+        name="ingresar-password"
         placeholder="Ingrese su password"
-        onChange={(e) => props.setPassword(e.target.value)} value={props.password} />
+        onChange={(e) => props.setPassword(e.target.value)} 
+        value={props.password} 
+      />
 
     </div>
   )
